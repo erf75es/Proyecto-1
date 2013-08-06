@@ -1,0 +1,34 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}hr{border-left:none;border-right:0;border-bottom:0;border-top:1px solid #ccc;background:0;margin-bottom:20px;margin-top:10px}.clear{clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}.clearfix:after{clear:both;content:' ';display:block;font-size:0;line-height:0;visibility:hidden;width:0;height:0}body{background:#fff;
+font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size:12px;
+line-height:18px;
+color:#535353;
+-webkit-font-smoothing:antialiased;
+border-top:8px solid #ad3535}
+#content{width:900px;
+margin-left:50px;
+margin-top:50px}
+#content h1{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size:12px;
+padding-bottom:10px;
+margin-top:20px;
+color:#2d2d2d;
+text-transform:uppercase;
+font-weight:800}#content p.blurb{padding-bottom:10px;
+padding-top:15px;line-height:44px;font-size:35px;
+font-family:'Petrona',serif;color:#ad3535}
+#content p a:link,a:visited{color:#535353;
+text-decoration:none;
+-webkit-transition-duration:.6s;
+-moz-transition-duration:.6s}
+#content p a:hover{color:#c64f3d}
+@media only screen and (min-width:320px) and (max-width:767px){
+	body{overflow:hidden}
+#content{width:280px;padding:20px 0 0 20px;float:left;margin:0}
+#content h1{font-size:12px}
+#content p.blurb{font-size:25px}}
+@media only screen and (min-width:480px) and (max-width:767px){
+	#content{width:400px;margin-left:20px;margin-top:20px}
+	#content h1{font-size:14px}
+	#content p.blurb{font-size:30px}
+	}
